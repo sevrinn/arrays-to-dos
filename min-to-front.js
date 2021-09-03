@@ -32,9 +32,10 @@ const minToFront = (arr) => {
   console.log("The minimum value is at index " + minIndex + " of given array");
 
   //once min is found, move eveything to left of min to the right
-  //set k to the minIndex; while k is greater than 0(the first index); decrement k by 1
+  //set k to the minIndex; while k is greater than 0(the first index), do the thing; decrement k by 1
   //THIS IS THE pushFront function from arrays-to-do-1!!!
   for (let k = minIndex; k > 0; k--) {
+    //the thing:
     //set the current value of to equal the value of the index before it
     arr[k] = arr[k - 1];
     // console.log(arr);
