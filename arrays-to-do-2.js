@@ -137,6 +137,15 @@ filterRange(filterRangeTestArr, 5, 8);
  *
  */
 const concat = (arr1, arr2) => {
+  //set newArr by destructuring
   let newArr = [...arr1, ...arr2];
   console.log(newArr);
 };
+
+let anArray = [1, 2, 3];
+let anotherArray = [4, 5, 6];
+concat(anArray, anotherArray);
+//returns [1,2,3,4,5,6]
+
+//I do not know if this is the way you wanted us to do it
+//this was WAY easier
