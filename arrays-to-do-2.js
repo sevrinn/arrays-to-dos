@@ -148,4 +148,4 @@ concat(anArray, anotherArray);
 //returns [1,2,3,4,5,6]
 
 //I do not know if this is the way you wanted us to do it
-//this was WAY easier
+//this was easier than the filter range and WAY easier than the <rotate className=""></rotate>
